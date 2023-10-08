@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-06-22T14:13:39.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Vrl-GbKAuZgHEYQFarDQ" version="21.5.0" type="onedrive">
+  <diagram name="Page-1" id="8rugiLjfDRnu3jPydyFZ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-1" value="AssessmentApp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="160" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-2" value="+ name: String&lt;br&gt;+ modName: String&lt;br&gt;+ weighting: int&lt;br&gt;+ percentage: double&lt;br&gt;+ grade: double&lt;br&gt;&lt;br&gt;+ q: Quiz&lt;br&gt;+ e: Essay" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-1">
+          <mxGeometry y="26" width="160" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-1">
+          <mxGeometry y="190" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-4" value="+ main(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-1">
+          <mxGeometry y="198" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-5" value="&lt;i&gt;Assessment&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="340" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-6" value="# name: String&lt;br&gt;# modName: String&lt;br&gt;# weighting: int&lt;br&gt;# percentage: double&lt;br&gt;# grade: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-5">
+          <mxGeometry y="26" width="340" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-5">
+          <mxGeometry y="110" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-8" value="+ Assessment(): void&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;+ Assessment(name:String, modName:String, weighting: int): void&lt;/font&gt;&lt;br&gt;+ setName(name:String): void&lt;br&gt;+ setModName(modName:String): void&lt;br&gt;+ setWeighting(weighting:int): void&lt;br&gt;+ setPercentage(percentage: double): void&lt;br&gt;+ getName(): String&lt;br&gt;+ getModName(): String&lt;br&gt;+ getWeighting(): int&lt;br&gt;+ getPercentage(): double&lt;br&gt;&lt;br&gt;&lt;i&gt;+ getDetails(): String&lt;br&gt;+ calculateGrade(): void&lt;/i&gt;&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-5">
+          <mxGeometry y="118" width="340" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1QmQiEbpM_gbv2eP7rU6-9" target="1QmQiEbpM_gbv2eP7rU6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-9" value="Quiz" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-10" value="- numQuestions: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-9">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-9">
+          <mxGeometry y="52" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;+ Quiz(): void&lt;br&gt;+ Quiz(name: String, modName:String, weighting:int, numQuestions:int): void&lt;br&gt;+ setNumQuestions(numQuestions: int): void&lt;br&gt;+ getNumQuestions(): int&lt;br&gt;+ getDetails(): String&lt;br&gt;+ calculateGrade(): void&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-9">
+          <mxGeometry y="60" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.006;entryY=0.915;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1QmQiEbpM_gbv2eP7rU6-13" target="1QmQiEbpM_gbv2eP7rU6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-13" value="Essay" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-14" value="- wordCountPen: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-13">
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-13">
+          <mxGeometry y="52" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;+ Essay(): void&lt;br&gt;+ Essay(name:String, modName:String, weighting:int, wordCountPen:double): void&lt;br&gt;+ setWordCountPen(wordCountPen: double): void&lt;br&gt;+ getWordCountPen(): double&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1QmQiEbpM_gbv2eP7rU6-13">
+          <mxGeometry y="60" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="1QmQiEbpM_gbv2eP7rU6-2" target="1QmQiEbpM_gbv2eP7rU6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="1QmQiEbpM_gbv2eP7rU6-4" target="1QmQiEbpM_gbv2eP7rU6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QmQiEbpM_gbv2eP7rU6-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.279;exitY=1.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1QmQiEbpM_gbv2eP7rU6-4" target="1QmQiEbpM_gbv2eP7rU6-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="290" as="sourcePoint" />
+            <mxPoint x="60" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

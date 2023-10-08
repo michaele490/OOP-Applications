@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2023-06-20T17:13:52.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="52Ea38neNkg2SxdsCLiv" version="21.5.0" type="onedrive">
+  <diagram name="Page-1" id="UXv-12QtoDgSL4neBjLX">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-3" value="&lt;i&gt;Game&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-40" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-4" value="# input: String&lt;br&gt;# output: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-3">
+          <mxGeometry y="26" width="220" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-3">
+          <mxGeometry y="90" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-6" value="+ setInput(input:String):void&lt;br&gt;+ output(): void&lt;br&gt;&lt;br&gt;&lt;i&gt;+ initialise(): void&lt;br&gt;+ checkGuess(): void&lt;br&gt;+ instructions(): void&lt;br&gt;+ play(input: String): void&lt;br&gt;&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-3">
+          <mxGeometry y="98" width="220" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-7" value="GameApp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-40" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-8" value="c: CrackTheCode&lt;br&gt;w: WordGuess" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-7">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-7">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-10" value="+ main(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-7">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.494;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="2ynFxbkFwjsxFYkMLRue-11" target="2ynFxbkFwjsxFYkMLRue-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-11" value="CrackTheCode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="240" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-12" value="- secretCode[ ]: int&lt;br&gt;- guess: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-11">
+          <mxGeometry y="26" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-11">
+          <mxGeometry y="80" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-14" value="+ initialise(): void&lt;br&gt;+ checkGuess(): void&lt;br&gt;+ instructions(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-11">
+          <mxGeometry y="88" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=-0.009;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2ynFxbkFwjsxFYkMLRue-15" target="2ynFxbkFwjsxFYkMLRue-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-450" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-15" value="WordGuess" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="240" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-16" value="- words[ ]: String&lt;br&gt;- guess: char&lt;br&gt;- secret: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-15">
+          <mxGeometry y="26" width="220" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-15">
+          <mxGeometry y="100" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-18" value="+ initialise(): void&lt;br&gt;+ checkGuess(): void&lt;br&gt;+ instructions(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="2ynFxbkFwjsxFYkMLRue-15">
+          <mxGeometry y="108" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.391;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="2ynFxbkFwjsxFYkMLRue-8" target="2ynFxbkFwjsxFYkMLRue-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ynFxbkFwjsxFYkMLRue-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="2ynFxbkFwjsxFYkMLRue-10" target="2ynFxbkFwjsxFYkMLRue-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
